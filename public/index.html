@@ -7,14 +7,23 @@
 <body>
 <h1>FEC FRBO</h1>
 <div id="photogallery"></div>
+<div id="shoegallery"></div>
 <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
 <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
 <script src="http://localhost:5002/bundle-Uma.js"></script>
+<script src="http://localhost:3006/bundle-cody.js"></script>
+<script src="https://use.fontawesome.com/695d9d573a.js"></script>
 <script>
       ReactDOM.render(
         React.createElement(PhotoGallery),
         document.getElementById('photogallery')
       );
+</script>
+<script>
+    ReactDOM.render(
+      React.createElement(ShoeGallery),
+      document.getElementById('shoegallery')
+    );
 </script>
 </body>
 </html>
